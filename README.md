@@ -1,0 +1,1 @@
+# tmp-rubocop-json-formatter-issue
