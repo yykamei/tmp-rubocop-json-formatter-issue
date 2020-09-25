@@ -1,14 +1,15 @@
 # tmp-rubocop-json-formatter-issue
 
+This repository is just for reproducing [this](https://github.com/rubocop-hq/rubocop/issues/8718) issue.
 
-RuboCop Version:
+Here's my environment.
 
 ```console
-$ bundle exec rubocop --version
-0.91.0
+$ bundle exec rubocop -V
+0.91.1 (using Parser 2.7.1.5, rubocop-ast 0.5.0, running on ruby 2.7.1 x86_64-linux)
 ```
 
-Run RuboCop without `--format=json`:
+I don't get any errors with the following command (without `--format=json`):
 
 ```console
 $ bundle exec rubocop --cache=false a.rb
@@ -22,7 +23,7 @@ a.rb:1:1: W: Lint/EmptyFile: Empty file detected.
 1 file inspected, 1 offense detected
 ```
 
-Run RuboCop with `--format=json`:
+However, with `--format=json`, I can get this error.
 
 ```console
 $ bundle exec rubocop --cache=false --format=json a.rb
