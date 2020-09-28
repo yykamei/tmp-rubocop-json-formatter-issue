@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rubocop-hq/rubocop
-  revision: e86115d3355ed3976a9b0d60ae9195f554ec2773
+  revision: 14ad2589d198fa72cdfd48bd7f073533281f523b
   branch: master
   specs:
     rubocop (0.92.0)
@@ -23,7 +23,7 @@ GEM
     rainbow (3.0.0)
     regexp_parser (1.8.0)
     rexml (3.2.4)
-    rubocop-ast (0.5.0)
+    rubocop-ast (0.6.0)
       parser (>= 2.7.1.5)
     ruby-progressbar (1.10.1)
     unicode-display_width (1.7.0)

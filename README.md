@@ -6,7 +6,7 @@ Here's my environment.
 
 ```console
 $ bundle exec rubocop -V
-0.92.0 (using Parser 2.7.1.5, rubocop-ast 0.5.0, running on ruby 2.7.1 x86_64-linux)
+0.92.0 (using Parser 2.7.1.5, rubocop-ast 0.6.0, running on ruby 2.7.1 x86_64-linux)
 ```
 
 I don't get any errors with the following command (without `--format=json`):
