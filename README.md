@@ -1,3 +1,5 @@
+**THE PROBLEM HAS BEEN SOLVED. THANK YOU, RuboCop CONTRIBUTORS!**
+
 # tmp-rubocop-json-formatter-issue
 
 This repository is just for reproducing [this](https://github.com/rubocop-hq/rubocop/issues/8718) issue.
